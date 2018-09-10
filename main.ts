@@ -1,9 +1,9 @@
-//% weight=70 icon="\uf075" color=#555555 block="コメント"
-// namespace comment {
-//     //% blockId=show_strings block="コメント %v"
-//     export function noaction(text: string): void {
-//     }
-// }
+//% weight=70 icon="\uf075" color=#555555 block="ESP8266 Wifi"
+namespace comment {
+    //% blockId=show_strings block="Wifi"
+    export function noaction(text: string): void {
+    }
+}
 namespace esp8266 {
     let flag = true;
 
@@ -24,7 +24,7 @@ namespace esp8266 {
     //% blockGap=7	
     export function setWifi(ssid: string, pwd: string): void {
         //serial.writeLine("(AT+wifi?ssid=" + ssid + "&pwd=" + pwd + ")");
-        serial.writeLine('AT+CWJAP="' + ssid +'","' + pwd + '"');
+        serial.writeLine('AT+CWJAP="' + ssid + '","' + pwd + '"');
     }
 
 
