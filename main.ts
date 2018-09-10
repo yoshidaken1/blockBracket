@@ -1,9 +1,4 @@
 //% weight=70 icon="\uf1eb" color=#FFA000 block="ESP8266 Wifi"
-namespace comment {
-    //% blockId=show_strings block="Wifi"
-    export function noaction(text: string): void {
-    }
-}
 namespace esp8266 {
     let flag = true;
 
