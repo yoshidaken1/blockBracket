@@ -1,4 +1,4 @@
-//% weight=70 icon="\uf075" color=#555555 block="ESP8266 Wifi"
+//% weight=70 icon="\uf1eb" color=#FFA000 block="ESP8266 Wifi"
 namespace comment {
     //% blockId=show_strings block="Wifi"
     export function noaction(text: string): void {
